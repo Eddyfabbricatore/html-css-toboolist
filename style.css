@@ -52,3 +52,21 @@ button{
   color: gray;
   border: 1px solid gray;
 }
+
+.button-section{
+  border-bottom: 5px solid rgb(240, 240, 240);;
+}
+
+section span{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+section span::before{
+  content: '\25BE';
+}
+
+ul li{
+  padding: 10px 25px;
+  list-style-type: none;
+}
