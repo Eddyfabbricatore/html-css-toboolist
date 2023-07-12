@@ -10,41 +10,88 @@
 <body>
   <header>
     <img src="img/Logo.png" alt="Logo">
-    <span class="text">Toboolist</span>
+    <span class="logo-text">Toboolist</span>
   </header>
 
-  <main>
-    <section class="button-section">
-      <button id="task">Add Task</button>
-      <button id="section">Add Section</button>
-    </section>
+  <main class="container">
+    <div class="top">
+      <button class="btn btn-filled">Add Task</button>
+      <button class="btn btn-empty">Add Section</button>
+    </div>
 
-    <section>
-      <span>New Task</span>
+    <div class="tasks">
       <ul>
-        <li>Quarterly Newsletter</li>
-      </ul>
-    </section>
+        <li>
+          <h3>New Task</h3>
+          <ul>
+            <li>
+              <span class="circle checked"></span>
+              <span>Quarterly Newsletter</span>
+              <span class="badge editorial">Editorial</span>
+            </li>
+          </ul>
+        </li>
+        
+        <li>
+          <h3>Today</h3>
+          <ul>
+            <li>
+              <span class="circle checked"></span>
+              <span>Recruiting blog post</span>
+              <span class="badge editorial">Editorial</span>
+            </li>
 
-    <section>
-      <span>Today</span>
-      <ul>
-        <li>Recruiting blog post</li>
-        <li>Mobile app launch</li>
-        <li class="cross">Interview John H.</li>
-        <li>Summit update to mobile storefronts</li>
-      </ul>
-    </section>
+            <li>
+              <span class="circle checked"></span>
+              <span>Mobile app launch</span>
+              <span class="badge q1">Q1 Goal</span>
+            </li>
 
-    <section>
-      <span>Upcoming</span>
-      <ul>
-        <li class="cross">Schedule meeting with Alex</li>
-        <li>Homepage refresh</li>
-        <li>Onboard new sales team members</li>
-        <li>Review editorial calendar</li>
-      </ul>
-    </section>
-  </main>
+            <li>
+              <span class="circle unchecked"></span>
+              <span>Interview John H.</span>
+              <span class="badge recruiting">Recruiting</span>
+            </li>
+
+            <li>
+              <span class="circle checked"></span>
+              <span>Summit update to mobile storefronts</span>
+              <span class="badge mobile">Mobile</span>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <h3>Upcoming</h3>
+              <ul>
+                <li>
+                  <span class="circle unchecked"></span>
+                  <span>Schedule meeting with Alex</span>
+                </li>
+      
+                <li>
+                  <span class="circle checked"></span>
+                  <span>Homepage refresh</span>
+                  <span class="badge website">Website</span>
+                </li>
+
+                <li>
+                  <span class="circle checked"></span>
+                  <span>Onboard new sales team members</span> 
+                  <span class="badge sales">Sales</span>
+                </li>
+
+                <li>
+                  <span class="circle checked"></span>
+                  <span>Review editorial calendar</span> 
+                  <span class="badge editorial">Editorial</span>
+                </li>
+              </ul>
+            </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</main>  
 </body>
 </html>
